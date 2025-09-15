@@ -1,2 +1,1 @@
-# TECHBUILDER"# e-commerce" 
-My local README content
+Frontend Code
