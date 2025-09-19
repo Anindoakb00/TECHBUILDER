@@ -93,6 +93,4 @@ This frontend was built as part of a demo portfolio project. If you want to exte
 - Server-side rendering for SEO-sensitive product pages
 - Unit/integration tests for key flows
 
----
 
-If you'd like, I can add a short portfolio blurb, screenshots, or a more detailed architecture section to this README. Tell me which you'd prefer next.
