@@ -1,4 +1,4 @@
-# TECHBUILDER — Frontend (tbfront)
+# TECHBUILDER — an advanced E-commerce Shop
 
 This repository contains the frontend for the TECHBUILDER sample store — a Next.js (App Router) TypeScript app with a modern, responsive UI for product listing, product details, cart, and JWT-based authentication. The app is designed to talk to a Django REST backend (examples in-code reference `/api/...`).
 
