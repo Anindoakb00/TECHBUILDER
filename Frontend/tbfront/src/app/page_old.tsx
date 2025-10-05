@@ -9,7 +9,6 @@ import { getFeaturedProducts } from "@/lib/products"
 import { normalizeImageUrl } from '@/lib/images'
 
 export default function Page() {
-  toast('')
   const [products, setProducts] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [heroImage, setHeroImage] = useState<string | null>(null)

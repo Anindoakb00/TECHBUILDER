@@ -15,7 +15,6 @@ const LoginSchema = z.object({ username: z.string().min(2), password: z.string()
 const SignupSchema = z.object({ username: z.string().min(2), password: z.string().min(6) })
 
 export default function AuthModal({ open, onOpenChange }: { open:boolean; onOpenChange:(o:boolean)=>void }) {
-  toast("");
   const login = useAuthStore(s=>s.login)
   const { register: r1, handleSubmit: hs1 } = useForm<z.infer<typeof LoginSchema>>({ resolver: zodResolver(LoginSchema) })
   const { register: r2, handleSubmit: hs2 } = useForm<z.infer<typeof SignupSchema>>({ resolver: zodResolver(SignupSchema) })

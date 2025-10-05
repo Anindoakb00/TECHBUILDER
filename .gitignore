@@ -25,7 +25,11 @@ dist/
 
 # Django
 db.sqlite3*
+# Ignore any media folder by default, but allow seed product images under Backend/media/product_images
 media/
+**/media/
+!Backend/media/product_images/
+!Backend/media/product_images/**
 staticfiles/
 Backend/productionfiles/
 
@@ -50,3 +54,8 @@ coverage/
 # ---- Docs ----
 # Exclude all markdown files from the repository
 *.md
+
+# ---- Local helper scripts (Windows launchers) ----
+start_backend.bat
+start_frontend.bat
+start_both_servers.bat

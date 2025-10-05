@@ -24,7 +24,6 @@ type Product = {
 }
 
 const ProductListingPage = () => {
-  toast("");
   const [products, setProducts] = useState<Product[]>([])
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([])
   const [loading, setLoading] = useState(true)
